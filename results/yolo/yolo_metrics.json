@@ -1,0 +1,13 @@
+{
+  "model_name": "YOLO11 Nano",
+  "architecture": "One-Stage CNN + Attention Head",
+  "mAP50": 0.5486406485671192,
+  "mAP50_95": 0.2645578808446456,
+  "precision": 0.49139485820190365,
+  "recall": 0.6331762456387191,
+  "f1_score": 0.5533474472287775,
+  "tap_off_unit_ap50": 0.20609615384615382,
+  "zct_sensor_ap50": 0.32301960784313727,
+  "inference_latency_ms": 78.85657499880632,
+  "train_time_minutes": 49.632780814170836
+}

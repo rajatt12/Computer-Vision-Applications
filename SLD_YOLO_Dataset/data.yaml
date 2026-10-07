@@ -1,0 +1,11 @@
+# SLD Symbol Detection Dataset - YOLO11 & YOLO Format
+path: d:/HOSHO/Model Testing/SLD_YOLO_Dataset
+train: images/train
+val: images/valid
+test: images/test
+
+names:
+  0: SINGLE PHASE UNFUSED TAP OFF UNIT
+  1: ZERO PHASE SEQUENCE CURRENT TRANSFORMER
+
+nc: 2
