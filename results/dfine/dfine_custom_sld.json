@@ -1,0 +1,15 @@
+{
+  "task": "detection",
+  "num_classes": 2,
+  "remap_mscoco_category": false,
+  "train_dataloader": {
+    "img_folder": "D:\\HOSHO\\Model Testing\\SLD ANNOTATION.v2-version-2.coco\\train",
+    "ann_file": "D:\\HOSHO\\Model Testing\\SLD ANNOTATION.v2-version-2.coco\\train\\_annotations.coco.json",
+    "batch_size": 2
+  },
+  "val_dataloader": {
+    "img_folder": "D:\\HOSHO\\Model Testing\\SLD ANNOTATION.v2-version-2.coco\\test",
+    "ann_file": "D:\\HOSHO\\Model Testing\\SLD ANNOTATION.v2-version-2.coco\\test\\_annotations.coco.json",
+    "batch_size": 2
+  }
+}
